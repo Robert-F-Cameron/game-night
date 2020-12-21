@@ -1,0 +1,34 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "JWT Authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robert-F-Cameron/game-night.git"
+  },
+  "keywords": [
+    "node",
+    "jwt",
+    "express",
+    "mysql"
+  ],
+  "author": "R. Cameron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robert-F-Cameron/game-night/issues"
+  },
+  "homepage": "https://github.com/Robert-F-Cameron/game-night#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
